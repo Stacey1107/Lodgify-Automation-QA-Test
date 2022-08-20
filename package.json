@@ -10,12 +10,16 @@
   "author": "Lodgify QA Team",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.5.3"
+    "cypress": "^10.6.0",
+    "cypress-recurse": "^1.23.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "dev-server": "node server/server.js",
     "install-all": "npm install && cd server && npm install",
     "cy:open": "npx cypress open",
-    "cy:run": "npx cypress run --browser chrome"
+    "cy:run": "npx cypress run --browser chrome",
+    "prettier": "prettier --write ."
   }
 }

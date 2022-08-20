@@ -1,0 +1,10 @@
+.vscode
+.idea
+node_modules
+public
+server
+cypress/support
+cypress/plugins
+
+*.json
+README.md
