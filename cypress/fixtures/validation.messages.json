@@ -1,0 +1,7 @@
+{
+    "MandatoryName": "Name is mandatory",
+    "MandatoryPhone": "Phone is mandatory",
+    "MandatoryEmail": "Email is mandatory",
+    "MandatoryComment": "Comment is mandatory",
+    "NonValidEmail": "The email provided is not valid"
+}
